@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useRef } from "react";
 import SparkMD5 from "spark-md5";
 
 const UpLoad = () => {

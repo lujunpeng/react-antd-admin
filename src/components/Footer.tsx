@@ -4,6 +4,14 @@ const Footer = () => {
   // 声明一个叫 “count” 的 state 变量。
   const [count, setCount] = useState(0);
   const [num, setNum] = useState(0)
+  const [name, setName] = useState<string>()
+  
+  interface People {
+    name: string,
+    age: number,
+    country?: string
+  }
+
 
   return (
     <div>
